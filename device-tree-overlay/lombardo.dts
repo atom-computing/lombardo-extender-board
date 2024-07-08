@@ -1,11 +1,40 @@
 /dts-v1/;
 /plugin/;
 
-/* gromit_app.dtsi */
 &hier_app_axi_iic_fplink {
 
     lombardo_eeprom: eeprom@54 {
         compatible = "atmel,24c02";
         reg = <0x54>;
+    };
+
+    lombardo_gpio_sfp: gpio@39 {
+        compatible = "nxp,pca9554";
+        reg = <0x39>;
+        gpio-controller;
+        gpio-line-names =
+            "lombardo_sfp_tx_fault",
+            "lombardo_sfp_tx_disable",
+            "lombardo_sfp_mod_absent",
+            "lombardo_sfp_rs0",
+            "lombardo_sfp_led_green",
+            "lombardo_sfp_led_yellow",
+            "lombardo_sfp_rs1",
+            "lombardo_sfp_rx_los";
+    };
+
+    lombardo_gpio_dir: gpio@3a {
+        compatible = "nxp,pca9554";
+        reg = <0x3a>;
+        gpio-controller;
+        gpio-line-names =
+            "lombardo_trig1_re_b",
+            "lombardo_trig1_de",
+            "lombardo_trig0_re_b",
+            "lombardo_trig0_de",
+            "lombardo_clk_de",
+            "lombardo_clk_re_b",
+            "lombardo_sfp_power_en",
+            "lombardo_sfp_i2c_en";
     };
 };
