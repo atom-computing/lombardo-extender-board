@@ -1,0 +1,15 @@
+BoardInfo:
+  manufacturer: Atom Computing
+  product_name: Lombardo
+  serial_number: '0000'
+  part_number: '0000'
+  fru_file_id: none
+
+ProductInfo:
+  manufacturer: Atom Computing
+  product_name: Lombardo
+  part_number: '0000'
+  version: revA
+  serial_number: '0000'
+  asset_tag: none
+  fru_file_id: none
