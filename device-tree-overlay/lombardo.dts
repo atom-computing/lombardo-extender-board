@@ -1,0 +1,11 @@
+/dts-v1/;
+/plugin/;
+
+/* gromit_app.dtsi */
+&hier_app_axi_iic_fplink {
+
+    lombardo_eeprom: eeprom@54 {
+        compatible = "atmel,24c02";
+        reg = <0x54>;
+    };
+};
