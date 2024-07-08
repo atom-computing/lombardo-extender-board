@@ -37,4 +37,9 @@
             "lombardo_sfp_power_en",
             "lombardo_sfp_i2c_en";
     };
+
+    lombardo_temp: max6626@49 {
+        compatible = "maxim,max6626";
+        reg = <0x49>;
+    };
 };
