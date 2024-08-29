@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: C:\Users\Katrina Barns\Desktop\PCB_Designs\Lombardo\Lombardo_RevB.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_GND|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_SFP|Scope=Board|Minimum=0.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=3.00
+RuleKind=Width|RuleName=Width_50Ohm|Scope=Board|Minimum=12.50
+RuleKind=Width|RuleName=Width_P-G|Scope=Board|Minimum=15.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_Keepout|Scope=Board|Minimum=0.00
