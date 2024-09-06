@@ -8,6 +8,11 @@
         reg = <0x54>;
     };
 
+    lombardo_mac: eeprom@5c {
+        compatible = "atmel,24mac402";
+        reg = <0x5c>;
+    };
+
     lombardo_gpio_sfp: gpio@39 {
         compatible = "nxp,pca9554";
         reg = <0x39>;
