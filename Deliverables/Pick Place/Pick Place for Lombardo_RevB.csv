@@ -4,9 +4,9 @@ C:\Users\Katrina Barns\Desktop\PCB_Designs\Lombardo\Deliverables\Pick Place\Pick
 ========================================================================================================================
 File Design Information:
 
-Date:       28/08/24
-Time:       14:29
-Revision:   e4d10f1d50edfbab134fd8ecf9afb6c12fe6c5a0
+Date:       26/09/24
+Time:       14:34
+Revision:   6391083976098662f3ba53eb52f8b700477329a0
 Variant:    No variations
 Units used: mil
 
@@ -34,7 +34,7 @@ Units used: mil
 "C35","1µF","TopLayer","CAPC160X80X95L35","Capacitor, Chip; 1.60 mm L X 0.80 mm W X 0.95 mm H body","1886.523","2705.000","0","CAP CER 1uF 10V 10% 0603"
 "U46","PCA9554AD,118","BottomLayer","SOIC16P127_1030X1032X265L83X42","Small Outline IC (SOIC), 1.27 mm pitch; 16 pin, 10.30 mm L X 7.50 mm W X 2.65 mm H body","3150.000","3375.000","180","I/O GPIO Expander 8 I2C, SMBus 400 kHz 16-SO"
 "U9","PCA9554AD,118","BottomLayer","SOIC16P127_1030X1032X265L83X42","Small Outline IC (SOIC), 1.27 mm pitch; 16 pin, 10.30 mm L X 7.50 mm W X 2.65 mm H body","4175.000","3800.000","0","I/O GPIO Expander 8 I2C, SMBus 400 kHz 16-SO"
-"U8","AT24HC02C-XHM-B","TopLayer","SOP8P65_300X640X120L60X24","Small Outline Pkg (SOP), 0.65 mm pitch; 8 pin, 3.00 mm L X 4.40 mm W X 1.20 mm H body","4150.000","4000.000","0","IC EEPROM 2KBIT I2C 1MHZ 8TSSOP"
+"U8","AT24MAC402-XHM-B","TopLayer","SOP8P65_300X640X120L60X24","Small Outline Pkg (SOP), 0.65 mm pitch; 8 pin, 3.00 mm L X 4.40 mm W X 1.20 mm H body","4150.000","4000.000","0","IC EEPROM  MAC 48 2KBIT I2C 1MHZ 8TSSOP"
 "U7","MAX6626PMUT+T","TopLayer","SOT23-6P95_280X145L45X42","Small Outline Transistor, SOT-23 Type, 0.95 mm pitch; 6 pin, 2.90 mm L X 1.625 mm W X 1.45 mm H body","4325.000","3050.000","270","Temperature Sensor Digital, Local -55°C ~ 125°C 12 b SOT-6"
 "U6","SN74LVC1G34DBVR","BottomLayer","SOT23-5P95_280X110L45X40","Small Outline Transistor (SOT23), 0.95 mm pitch; 5 pin, 2.90 mm L X 1.60 mm W X 1.10 mm H body","3250.000","2850.000","0","Buffer, Non-Inverting 1 Element 1 Bit per Element Push-Pull Output SOT-23-5"
 "U5","SN65MLVD201DR","TopLayer","SOIC8P127_490X599X175L84X41","Small Outline IC (SOIC), 1.27 mm pitch; 8 pin, 4.905 mm L X 3.895 mm W X 1.75 mm H body","3750.000","3100.000","0","1/1 Transceiver Half LVDS, Multipoint 8-SOIC"
